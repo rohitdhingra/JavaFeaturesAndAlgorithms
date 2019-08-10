@@ -1,16 +1,17 @@
 package com.rohit.poc;
 
-class Counter {
-	int count;
+import java.util.concurrent.atomic.AtomicInteger;
 
-	public synchronized void increment() {
-		count++;
+class Counter {
+	AtomicInteger count = new AtomicInteger();
+
+	public void increment() {
+		count.incrementAndGet();
 	}
 
 }
 
 public class ThreadSafetyExample {
-
 	public static void main(String[] args) throws InterruptedException {
 		
 		long initial2 = System.currentTimeMillis();
