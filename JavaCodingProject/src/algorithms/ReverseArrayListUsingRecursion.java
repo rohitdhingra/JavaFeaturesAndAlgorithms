@@ -1,4 +1,4 @@
-package com.rohit.poc;
+package algorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;

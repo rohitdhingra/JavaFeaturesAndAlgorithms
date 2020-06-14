@@ -1,4 +1,4 @@
-package com.rohit.poc;
+package multithreading;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

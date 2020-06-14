@@ -1,4 +1,4 @@
-package com.rohit.poc;
+package algorithms;
 
 public class ReverseString {
 	public static void main(String[] args) {
